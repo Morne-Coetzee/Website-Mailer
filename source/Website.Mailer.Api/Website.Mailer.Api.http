@@ -1,0 +1,15 @@
+@Website.Mailer.Api_HostAddress = https://localhost:6001
+
+POST {{Website.Mailer.Api_HostAddress}}/email
+Content-Type: application/json
+X-Auth-ApiKey: CE427A72-3964-4409-8D12-D923D1F202C7
+
+{
+  "to": [
+    "test@example.com"
+  ],
+  "subject": "Test email subject",
+  "body": "Test email body"
+}
+
+###
